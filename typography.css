@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./font/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather bold";
+    font-weight: bold;
+    font-style: bold;
+    src: url(./font/Merriweather-Bold.ttf);
+}
+
+html {
+    font-family: "Merriweather";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather bold";
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    margin: auto;
+    max-width: 50vw;
+}
