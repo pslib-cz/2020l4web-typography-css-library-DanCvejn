@@ -1,29 +1,82 @@
 @font-face {
-    font-family: "Merriweather";
+    font-family: "Text";
     font-weight: 400;
     font-style: normal;
     src: url(./font/Merriweather-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Merriweather bold";
+    font-family: "Heading";
     font-weight: bold;
     font-style: bold;
-    src: url(./font/Merriweather-Bold.ttf);
+    src: url(./font/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Description";
+    font-weight: normal;
+    font-style: 400;
+    src: url(./font/WorkSans-Regular.ttf);
 }
 
 html {
-    font-family: "Merriweather";
+    font-family: "Text";
 }
+
+/* HEADINGS */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Merriweather bold";
-    letter-spacing: 20%;
+    font-family: "Heading";
+    position: relative;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 10px 0; 
 }
 
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    background-color: black;
+    width: 20%;
+    height: 3px;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+/* ---------- */
+
+/* SECTIONS */
+
 img {
+    margin: 30px 0;
+    margin-bottom: 0;
+}
+
+section:nth-child(1) > img {
     width: 100%;
 }
+
+section:nth-child(n+1) > img {
+    width: 30%;
+}
+
+
+.description {
+    font-size: 12px;
+    color: #979797;
+    margin: 0;
+    padding: 0;
+    font-family: "Description";
+    text-align: right;
+}
+
+
 
 .content {
     margin: auto;
