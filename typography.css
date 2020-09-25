@@ -63,8 +63,13 @@ h1 {
 
 /* SECTIONS */
 
+section p {
+    text-align: justify;
+}
+
 .first p {
     font-size: 16px;
+    text-align: left;
 }
 
 .first .img {
@@ -124,6 +129,35 @@ p {
 
 /* LIST */
 
+li {
+    font-size: 14px;
+}
 
+ul li {
+    list-style: url(https://www.flaticon.com/svg/static/icons/svg/724/724954.svg);
+}
+
+ul > ul li {
+    font-size: .8em;
+}
+
+ol > ol li {
+    font-size: .8em;
+    list-style-type: disc;
+}
 
 /* ------ */
+
+/* TABLES */
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 1px solid black;
+}
+
+/* ------- */
