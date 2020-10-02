@@ -1,7 +1,6 @@
 # Typography CSS library
-**Author:** *First Lastname*
-## Demo site
-    You can check it here: https://dancvejn.github.io/typography/.
+**Author:** *Daniel Cvejn*
+###You can check it [here](http://dcreative.wz.cz/typography).
 ## Dependecies
 
 ## Implementation
@@ -15,9 +14,9 @@ If you have it in the same folder as the html file then use this:
     <link rel="stylesheet" href="./typography.css"> 
 ```
 Next download these two **fonts**:
-* https://fonts.google.com/specimen/Merriweather?query=mer
+* [Merriweather](https://fonts.google.com/specimen/Merriweather?query=mer)
     - Just regular will be enough
-* https://fonts.google.com/specimen/Work+Sans?query=work
+* [Work Sans](https://fonts.google.com/specimen/Work+Sans?query=work)
     - Just regular and bold
 ## Usage
 
