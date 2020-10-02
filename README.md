@@ -1,13 +1,13 @@
 # Typography CSS library
 **Author:** *First Lastname*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+    http://dcreative.wz.cz/typography/
 ## Dependecies
 ...
 ## Implementation
-...
+    <link rel="stylesheet" href="typography.css">
 ## Usage
-...
+
 ## Components
 ### First
 ### Second
