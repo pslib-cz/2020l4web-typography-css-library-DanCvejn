@@ -60,5 +60,5 @@ I changed:
 - [x] Headings 1-6
 - [x] Sections
 - [x] Lists styles
-- [] Table
-- [] Buttons
+- [ ] Table
+- [ ] Buttons
