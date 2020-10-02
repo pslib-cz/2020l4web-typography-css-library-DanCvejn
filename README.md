@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *First Lastname*
 ## Demo site
-    You can check it <a href="https://dancvejn.github.io/typography/">here</a>
+    You can check it [here](https://dancvejn.github.io/typography/)
 ## Dependecies
 
 ## Implementation
