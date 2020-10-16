@@ -6,17 +6,17 @@
 }
 
 @font-face {
-    font-family: "Heading";
-    font-weight: bold;
-    font-style: bold;
-    src: url(./font/WorkSans-Bold.ttf);
+    font-family: "WorkSans";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./font/WorkSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Description";
-    font-weight: normal;
-    font-style: 400;
-    src: url(./font/WorkSans-Regular.ttf);
+    font-family: "WorkSans";
+    font-weight: 700;
+    font-style: normal;
+    src: url(./font/WorkSans-Bold.ttf);
 }
 
 html {
@@ -38,11 +38,12 @@ body {
 /* HEADINGS */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Heading";
+    font-family: "WorkSans";
+    font-weight: bold;
     position: relative;
-    width: fit-content;
-    margin: 30px 0;
-    padding: 10px 0; 
+    display: inline-block;
+    margin: 1em 0;
+    padding: .3em 0; 
 }
 
 h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
@@ -133,6 +134,7 @@ p {
 }
 
 a {
+    font-size: 14px;
     color: black;
 }
 
