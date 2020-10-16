@@ -61,4 +61,4 @@ I changed:
 - [x] Sections
 - [x] Lists styles
 - [ ] Table
-- [ ] Buttons
+- [x] Buttons
