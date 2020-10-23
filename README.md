@@ -54,6 +54,10 @@ Every image put in **div** with class *img* and if you want some description for
         <p class="description">Description of the picture...</p>
     </div>
 ```
+For every button use class *btn*, you can use it for **a** or **button**:
+```
+    <a href=".yourlink" class="btn">Link</a>
+```
 ## Components
 
 I changed:
