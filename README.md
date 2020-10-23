@@ -2,7 +2,7 @@
 **Author:** *Daniel Cvejn*
 ## Demo site
 
-**Example of the typography [here](http://dcreative.wz.cz/typography).**
+**Example of the typography [here](https://pslib-cz.github.io/2020l4web-typography-css-library-DanCvejn/).**
 
 ## Dependecies
 
